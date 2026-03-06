@@ -18,7 +18,7 @@ multi-agent-system/
 │   │   ├── base_agent.py
 │   │   ├── coordinator_agent.py
 │   │   ├── worker_agent.py
-│   │   ├── monitor_agent.py
+│   │   ├── monitor_agent.py 
 │   │   └── resource_agent.py
 │   ├── communication/
 │   │   ├── __init__.py
@@ -81,4 +81,27 @@ pip install -e .
 
 ```
 
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## AI agent
+To turn this multi-agent system to an AI multi-agent system I have done following steps.
+
+The agents can 
+- Perceive
+- Decide
+- Act
+
+But their “decision” logic is rule-based, not AI-based.
+
+Now, we make it AI based: 
+
+```python
+async def decide(self):
+    # AI makes the decision
+```
 
