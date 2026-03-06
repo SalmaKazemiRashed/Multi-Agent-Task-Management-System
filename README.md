@@ -17,9 +17,7 @@ multi-agent-system/
 │   │   ├── __init__.py
 │   │   ├── base_agent.py
 │   │   ├── coordinator_agent.py
-│   │   ├── worker_agent.py
-│   │   ├── monitor_agent.py 
-│   │   └── resource_agent.py
+│   │   └── worker_agent.py
 │   ├── communication/
 │   │   ├── __init__.py
 │   │   ├── message.py
@@ -30,6 +28,7 @@ multi-agent-system/
 │   │   └── task_queue.py
 │   └── utils/
 │       ├── __init__.py
+│       ├── ai_brain.py
 │       └── logger.py
 ├── examples/
 │   ├── __init__.py
